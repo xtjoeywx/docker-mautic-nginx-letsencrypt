@@ -8,6 +8,7 @@ Using Mautic with SSL enabled integrated with NGINX proxy and autorenew LetsEncr
 <strong>Prerequisites</strong><br>
 1. evertramos WebProxy (the NGINX Proxy that also installs Letsencrypt)
   <br>https://github.com/evertramos/docker-compose-letsencrypt-nginx-proxy-companion
+  <br>
 2. Docker & Docker Compose
 <br>
   <br>
@@ -18,16 +19,20 @@ Using Mautic with SSL enabled integrated with NGINX proxy and autorenew LetsEncr
 <br>
 https://github.com/evertramos/docker-compose-letsencrypt-nginx-proxy-companion
   <br>Follow his instructions.
- <br>Note: In the `.env.sample` file the only things I change is I uncomment `#USE_NGINX_CONF_FILES=true` so that I can change the memory limit in the `uploadsize.conf` file. Also, I change the file path to make sure I want it installed where I want it to be. I install it here: `/home/user/nginx_webproxy/files`. Lastly don't forget to rename `.env.sample` to `.env` before you run the script to install it all.
+ <br>
+Note: In the `.env.sample` file the only things I change is I uncomment `#USE_NGINX_CONF_FILES=true` so that I can change the memory limit in the `uploadsize.conf` file. Also, I change the file path to make sure I want it installed where I want it to be. I install it here: `/home/user/nginx_webproxy/files`. Lastly don't forget to rename `.env.sample` to `.env` before you run the script to install it all.
 <br>
   <br>
 <strong>Mautic:</strong>
 <br>
 2. Change the .env.sample file to your information i.e. your domain(s), email, usnername, passwords, and install file paths and then rename it as `.env`. The docker-compose.yml file doesn't need any changes unless you'd like to change something.
 <br>
+  <br>
 3. start up your project:
 <br>
 `docker-compose up -d`
+<br>
+  <br>
 <br>
 That's it!
 <br>
