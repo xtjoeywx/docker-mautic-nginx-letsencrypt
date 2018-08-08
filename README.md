@@ -11,7 +11,7 @@ Note: This will need to be installed after the evertramos WebProxy (the NGINX Pr
 1. Setup the webproxy first (NGINX & Letsencrypt):
 https://github.com/evertramos/docker-compose-letsencrypt-nginx-proxy-companion
 </br>
-</br>
+
 Mautic:
 </br>
 2. Change the .env.sample file to your information and then rename it as .env
