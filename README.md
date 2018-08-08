@@ -12,7 +12,7 @@
   <strong>Prerequisites</strong>
 </p>
 <p>
-  1. evertramos WebProxy (the NGINX Proxy that also installs
+  1. evertramos webproxy (the NGINX Proxy that also installs
   Letsencrypt)<br />
   https://github.com/evertramos/docker-compose-letsencrypt-nginx-proxy-companion<br />
   Follow his instructions to install it.<br />
