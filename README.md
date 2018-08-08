@@ -18,7 +18,8 @@
   Follow his instructions to install it.<br />
   Note: In his .env.sample file the only things I change is I
   uncomment #USE_NGINX_CONF_FILES=true and I change the
-  file path to here: /home/myusername/nginx_webproxy/files. Don't forget to rename .env.sample to .env before you run the
+  file path to here: /home/myusername/nginx_webproxy/files<br />
+  Don't forget to rename .env.sample to .env before you run the
   script to install it.
 </p>
 <p>
