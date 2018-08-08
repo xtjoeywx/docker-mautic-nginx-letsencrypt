@@ -1,6 +1,6 @@
 # docker-mautic-nginx-letsencrypt
 # Using Mautic with SSL enabled integrated with NGINX proxy and autorenew LetsEncrypt certificates
-<p>This uses the evertramos/docker-compose-letsencrypt-nginx-proxy-companion to make Mautic secure. Credit for the webproxy goes to EvertRamos. It's amazing for one or multiple products on one server. The point of this is for a quick and easy install that will get Mautic up and running in less than 5 minutes.
+This uses the evertramos/docker-compose-letsencrypt-nginx-proxy-companion to make Mautic secure. Credit for the webproxy goes to EvertRamos. It's amazing for one or multiple products on one server. The point of this is for a quick and easy install that will get Mautic up and running in less than 5 minutes.
 <br>
 <br>
   <br>
@@ -31,4 +31,4 @@ Note: In his `.env.sample` file the only things I change is I uncomment `#USE_NG
 That's it!
 <br>
   <br>
-Adding your certificate may take a few minutes. Reload the browser until the Mautic setup screen shows up.</p>
+Adding your certificate may take a few minutes. Reload the browser until the Mautic setup screen shows up.
