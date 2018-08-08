@@ -18,7 +18,9 @@
   Note: In his .env.sample file the only things I change is I
   uncomment '`#USE_NGINX_CONF_FILES=true` and I change the
   file path to here: `/home/user/nginx_webproxy/files`. Don't forget to rename .env.sample to .env before you run the
-  script to install it.<br />
+  script to install it.
+</p>
+<p>
   2. Docker &amp; Docker Compose
 </p>
 <p>
