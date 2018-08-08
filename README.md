@@ -7,13 +7,14 @@
   point of this is for a quick and easy install that will get
   Mautic up and running in less than 5 minutes.
 </p>
+<br />
 <p>
-  <br />
-  <strong>Prerequisites</strong><br />
+  <strong>Prerequisites</strong>
+</p>
+<p>
   1. evertramos WebProxy (the NGINX Proxy that also installs
   Letsencrypt)<br />
   https://github.com/evertramos/docker-compose-letsencrypt-nginx-proxy-companion<br />
-
   Follow his instructions to install it.<br />
   Note: In his .env.sample file the only things I change is I
   uncomment '`#USE_NGINX_CONF_FILES=true` and I change the
