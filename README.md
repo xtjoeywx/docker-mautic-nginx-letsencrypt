@@ -13,8 +13,9 @@ Using Mautic with SSL enabled integrated with NGINX proxy and autorenew LetsEncr
 <br>
   <br>
   <br>
-<strong>Done in two simple steps:</strong>
+<strong>Done in three simple steps:</strong>
   <br>
+<br>
 1. Install the webproxy (NGINX & Letsencrypt):
 <br>
 https://github.com/evertramos/docker-compose-letsencrypt-nginx-proxy-companion
