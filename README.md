@@ -32,13 +32,14 @@
   git clone https://github.com/xtjoeywx/docker-mautic-nginx-letsencrypt.git
 </p>
 <p>
-  2. Change the .env.sample file to your information i.e. your
-  domain(s), email, usnername, passwords, and install file paths
-  and then rename it as .env The docker-compose.yml file doesn't
+  2. Change the .env.sample file to have your information in it i.e. your
+  domain(s), email, usnername, passwords, and install file paths.
+  Then rename it from .env.sample to .env<br />
+  The docker-compose.yml file doesn't
   need any changes unless you'd like to change something.
 </p>
 <p>
-  3. start up your project:<br />
+  3. Start up your project:<br />
   docker-compose up -d
 </p>
 <p>
