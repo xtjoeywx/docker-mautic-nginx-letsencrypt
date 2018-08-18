@@ -16,7 +16,7 @@
   Letsencrypt)<br />
   https://github.com/evertramos/docker-compose-letsencrypt-nginx-proxy-companion<br />
   Follow his instructions to install it.<br />
-  Note: In his .env.sample file the only things I change is I
+  Note: In his .env.sample file, the only things I change is I
   uncomment #USE_NGINX_CONF_FILES=true and I change the
   file path to here: /home/myusername/nginx_webproxy/files<br />
   Don't forget to rename .env.sample to .env before you run the
@@ -34,9 +34,9 @@
   git clone https://github.com/xtjoeywx/docker-mautic-nginx-letsencrypt.git
 </p>
 <p>
-  2. Change the .env.sample file to have your information in it i.e. your
+  2. Change the information in the .env.sample file to have your information in it i.e. your
   domain(s), email, usnername, passwords, and install file paths.
-  Then rename it from .env.sample to .env<br />
+  Rename the .env.sample file to .env<br />
   The docker-compose.yml file doesn't
   need any changes unless you'd like to change something.
 </p>
@@ -49,6 +49,6 @@
   That's it!
 </p>
 <p>
-  Note: Adding your certificate may take a few minutes. Reload the
+  Note: Adding your certificate may take a few minutes. Keep reloading the
   browser until the Mautic setup screen shows up.
 </p>
