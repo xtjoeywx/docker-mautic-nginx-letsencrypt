@@ -12,18 +12,18 @@
   <strong>Prerequisites</strong>
 </p>
 <p>
-  1. evertramos's webproxy (the NGINX proxy that also installs
+  1. Docker &amp; Docker Compose
+</p>
+<p>
+  2. <a href="https://github.com/evertramos/docker-compose-letsencrypt-nginx-proxy-companion">Evertramos's webproxy</a> (the NGINX proxy that also installs
   Letsencrypt)<br />
   https://github.com/evertramos/docker-compose-letsencrypt-nginx-proxy-companion<br />
   Follow his instructions to install it.<br />
-  Note: In his .env.sample file, the only things I change is I
+  Note: The only things I change in evertramos's .env.sample file is I
   uncomment #USE_NGINX_CONF_FILES=true and I change the
   file path to here: /home/myusername/nginx_webproxy/files<br />
-  Don't forget to rename .env.sample to .env before you run the
+  *Don't forget to rename .env.sample to .env before you run the
   script to install it.
-</p>
-<p>
-  2. Docker &amp; Docker Compose
 </p>
 <p>
   <br />
