@@ -9,6 +9,9 @@
 </p>
 <br />
 <p>
+  *Note though this has aged it should always be good. It pulls the latest version of Mautic.
+<p/>
+<p>
   <strong>Prerequisites</strong>
 </p>
 <p>
