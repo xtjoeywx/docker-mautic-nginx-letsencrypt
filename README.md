@@ -53,5 +53,5 @@
 </p>
 <p>
   Note: Adding your certificate may take a few minutes. Keep reloading the
-  browser until the Mautic setup screen shows up.
+ browser until the Mautic setup screen shows up. Lastly, though this package hasn't been updated, it will still install the latest version of Mautic. No worries there!
 </p>
